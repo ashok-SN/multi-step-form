@@ -1,0 +1,113 @@
+.Multi{
+    color: #ff5500;
+}
+
+/* color for tick mark in step */
+.completedStep {
+    color: rgb(18, 229, 18) !important;
+  }
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .Btn {
+    margin-right: 10px;
+  }
+
+  .section-title {
+    font-weight: bold;
+    color: #0055ff;
+    margin-bottom: 15px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container .Btn {
+    margin-right: 20px;
+  }
+  
+  .button-container .Btn:last-child {
+    margin-right: 0;
+  }
+  
+  MuiBox-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  MuiTypography-root {
+    margin-bottom: 10px;
+  }
+  
+  MuiButton-containedPrimary {
+    background-color: #0055ff;
+  }
+  
+  MuiButton-containedSecondary {
+    background-color: #ff5500;
+  }
+  /* Stepper.css */
+
+.Multi {
+    font-weight: bold;
+    color: #0055ff;
+    margin-bottom: 20px;
+  }
+  
+  .completedStep {
+    color: green !important;
+    font-weight: bold;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container .Btn {
+    margin-right: 20px;
+  }
+  
+  .button-container .Btn:last-child {
+    margin-right: 0;
+  }
+  
+  .stepper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* .stepper-content {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 85, 255, 0.2);
+    background-color: white;
+  }
+   */
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .MuiStepIcon-root.Mui-completed {
+    color: green !important;
+  }
+  
+  .MuiStepIcon-root.Mui-active {
+    color: #0055ff !important;
+  }
+  
+  .MuiStepLabel-label.Mui-completed {
+    color: green !important;
+    font-weight: bold;
+  }
+  
